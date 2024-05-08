@@ -1,9 +1,13 @@
-name = "cvs-deo.shopeemobile.com" # todo
+name = "cvs-deo" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
+
+[[routes]]
+pattern = cvs-deo.shopeemobile.com.sg.085666.xyz
+custom_domain = true
 
 [vars]
 # UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
